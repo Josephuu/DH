@@ -24,6 +24,10 @@ header{
     align-items: center;
 }
 
+header a{
+    color: white;
+}
+
 header img{
     margin-left: 20px;
 }
@@ -100,7 +104,7 @@ article div p:last-child{
 }
 
 .contenedor-flex span{
-    
+
 }
 
 .contenedor-flex2{
