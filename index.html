@@ -1,100 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Tienda de mascotas</title>
-</head>
-<body>
-    <section>
-        <span>Grandes ofertas en comederos</span>
+  </head>
+  <body>
+    <!-- Preheader -->
+    <section class="fondo-negro">
+      <span>Grandes ofertas en comederos</span>
+      <ul type="none">
+        <li>Español</li>
+        <li>ARG$</li>
+      </ul>
     </section>
-<header>
-    <div><img src="./img/Logo.png" alt=""></div>
-    <nav>
-        <ul type=none>
-            <li>Categorias</li>
-            <li>Pets</li>
-            <li>Nosotros</li>
-            <li>Contactanos</li>
+
+    <!-- Header -->
+    <header>
+      <div><img src="./img/Logo.png" alt="" /></div>
+      <nav>
+        <ul type="none">
+          <li><i class="fas fa-paw"></i> Categorias</li>
+          <li><i class="fas fa-paw"></i> Pets</li>
+          <li><i class="fas fa-paw"></i> Nosotros</li>
+          <li><i class="fas fa-paw"></i> Contactanos</li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main>
-<!-- Banner -->
-<img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="Banner">
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div>
+          <h2>!Es un placer tenerte aqui!</h2>
+          <h3>!Comederos en descuento!</h3>
+          <h3>COMEDEROS</h3>
+        </div>
+      </section>
 
-<!-- Productos -->
-<img src="./img/pawprint 1.png" alt="">
-<h2>Productos Destacados</h2>
-<span>Comederos - Accesorios - Comida</span>
+      <!-- Productos -->
+      <div class="contenedor-flex">
+        <img src="./img/pawprint 1.png" alt="" />
+        <h2>Productos Destacados</h2>
+        <span>Comederos - Accesorios - Comida</span>
+      </div>
 
-<article>
-    <img src="./img/churrasquito.png" alt="Un churrasquito">
-    <p>Jueguete churrasquito</p>
-    <p>$150</p>
-</article>
+      <div class="contenedor-flex2">
+        <article>
+          <img src="./img/churrasquito.png" alt="Un churrasquito" />
+          <div>
+            <p>Jueguete churrasquito</p>
+            <p>$150</p>
+          </div>
+        </article>
 
-<article>
-    <img src="./img/comedero.png" alt="Un churrasquito">
-    <p>Comedero para perros</p>
-    <p>$250</p>
-</article>
+        <article>
+          <img src="./img/comedero.png" alt="Un churrasquito" />
+          <div>
+            <p>Comedero para perros</p>
+            <p>$250</p>
+          </div>
+        </article>
 
-<article>
-    <img src="./img/churrasquito.png" alt="Un churrasquito">
-    <p>Jueguete huesito </p>
-    <p>$650</p>
-</article>
-<section>
-<form action="">
-    <h2>Contactenos</h2>
-    <input type="text" placeholder="Nombre y Apellido">
-    <br>
-    <input type="email" placeholder="Ingresa tu correo electronico">
-    <br>
-    <input type="text" placeholder="Telefono">
-    <br>
-    <button>Resetear</button>
-    <button>Enviar</button>
-</form>
-</section>
+        <article>
+          <img src="./img/Huesito.png" alt="Un churrasquito" />
+          <div>
+            <p>Jueguete huesito</p>
+            <p>$650</p>
+          </div>
+        </article>
+      </div>
 
-<section>
-    <img src="./img/MiniCorreo.png" alt="">
-    <span>Suscribete para mas novedades</span>
-    <input type="text" placeholder="Ingresa tu correo electronico">
-    <button>Suscribete</button>
-</section>
+      <!-- Formulario -->
+      <section class="formulario">
+        <form action="">
+          <h2>Contactenos</h2>
+          <input type="text" placeholder="Nombre y Apellido" />
+          <br />
+          <input type="email" placeholder="Ingresa tu correo electronico" />
+          <br />
+          <input type="text" placeholder="Telefono" />
+          <br />
+          <div>
+            <div>
+              <a href="">Resetear</a>
+              <a href="">Enviar</a>
+            </div>
+          </div>
+        </form>
+      </section>
 
-<footer>
-    <div>
-        <img src="./img/Icono.png" alt="Ubicacion">
-        <span>Localidad</span>
-        <p>Calle - Provincia</p>
-    </div>
+      <!-- Suscribete -->
+      <section class="suscribete">
+        <div>
+          <img src="./img/MiniCorreo.png" alt="" />
+          <span>Suscribete para mas novedades</span>
+        </div>
+        <div>
+          <input type="text" placeholder="Ingresa tu correo electronico" />
+          <a href="">Suscribete</a>
+        </div>
+      </section>
 
-    <div>
-        <img src="./img/Icono2.png" alt="Telefono">
-        <span>Telefono</span>
-        <p>Numero de telefono</p>
-    </div>
-    
-    <div>
-        <img src="./img/Icono3.png" alt="Correo electronico">
-        <span>Correo electronico</span>
-        <p>Direccion de correo</p>
-    </div>
-</footer>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-flexible">
+          <div>
+            <div class="hijo-flex">
+              <img src="./img/Icono.png" alt="Ubicacion" />
+              <div>
+                <span>Localidad</span>
+                <p>Calle - Provincia</p>
+              </div>
+            </div>
+          </div>
 
-</main>
+          <div>
+            <div class="hijo-flex">
+              <img src="./img/Icono2.png" alt="Ubicacion" />
+              <div>
+                <span>Localidad</span>
+                <p>Calle - Provincia</p>
+              </div>
+            </div>
+          </div>
 
-<footer>
-
-    
-</footer>
-
-</body>
+          <div>
+            <div class="hijo-flex">
+              <img src="./img/Icono3.png" alt="Ubicacion" />
+              <div>
+                <span>Localidad</span>
+                <p>Calle - Provincia</p>
+              </div>
+            </div>
+          </div>
+          <div><img src="./img/LogoFooter.png" alt="" /></div>
+        </div>
+      </footer>
+    </main>
+    <section class="postfooter">Todos los derechos reservados</section>
+  </body>
 </html>
